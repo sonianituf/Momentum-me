@@ -145,7 +145,7 @@ footer {
   margin: auto;
 }
 
-@media (min-width: 200) {
+@media (min-width: 250px) {
   h1 {
     color: red;
   }
