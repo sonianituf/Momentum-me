@@ -1,0 +1,149 @@
+
+//   Base style
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Alata', sans-serif;
+    font-size: 1.1rem;
+    color:#000;
+    background-color: #d9e6f2;
+}
+header  {
+    background: #006080 url("images/bg.jpg");
+    background-size: cover;
+    color: #fff;
+    height: 200px;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    
+}
+h2,
+header p {
+    letter-spacing: .1em;
+}
+h2 {
+    margin-left: 10px;
+}
+h3{
+    text-align:center;
+}
+header h1{
+    margin-bottom: 0;
+}
+header p {
+    margin-top: 0;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+li {
+    color:#fff;
+    margin: 1px;
+    padding-right: 15px;
+    padding-top: 10px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: #b3ffff;
+}
+form {
+    border: none;
+    background: white;
+    padding: 20px 30px;
+    margin: auto;
+    width: 60%;
+}
+fieldset{
+    border: none;
+}
+input {
+    border: solid 2px #b3c6ff;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+input,
+label {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+label{
+    padding: 10px 10px 10px 15px;
+}
+footer{
+    height: 100px;
+}
+
+
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.flex-pair {
+    display: flex;
+    flex-direction: column;
+}
+  .btn-default {
+    background-color:#668cff;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.description::after {
+    content : "";
+    display: block;
+    height: 30px;
+}
+.table h3::after {
+    content : "";
+    display: block;
+    height: 30px;
+}
+.description,
+.table {
+    width: 70%;
+    margin: auto;
+}
+
+// --- Media query ---
+
+@media(max-width: 375px) {
+    h1 {
+      color: yellow;
+    }
+      main {
+          width: 90%;
+  }
+  .description,
+.table {
+    width: 50%;
+    margin: auto;
+}
+}
+
+@media(min-width: 768px) {
+    h1 {
+      color: #b3d1ff;
+    }
+      main {
+          width: 80%;
+  }
+}
+
+  @media(min-width: 1240px) {
+      h1 {
+        color: pink;
+      }
+        main {
+            width: 70%;
+    }
+}

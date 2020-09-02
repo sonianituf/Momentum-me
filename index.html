@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.scss">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet"> 
+	<title>Momentum</title>
+</head>
+<body>
+
+
+	<div class="page-container">
+		<header>
+			<!-- HEADER HTML HERE -->
+			<nav class="main-nav">
+				<ul>
+					<li><a class="nav-link" href="#about">About</a></li>
+					<li><a class="nav-link" href="#betatesting">Beta Testing</a></li>
+				</ul>
+			</nav>
+			<h1>Momentum</h1>
+			<p><i>All your photography at a glance</i></p>
+		</header> 
+
+		<main>
+			<section class= "description">
+				<!-- SECTION 1 HTML HERE -->
+				<h2> What is momentum?</h2>
+				<p>A beta test is a type of testing period for a computer product prior to any sort of commercial or official release.
+					Beta testing is considered the last stage of testing, and normally involves distributing the product to beta test sites 
+					and individual users ("beta testers") outside the company for real-world exposure. Other beta tests may simply offer the 
+					product for a free trial download over the Internet.
+					Beta testing is often preceded by a round of testing called alpha testing.</p>
+			</section>
+			
+			<section class = "table">
+				<!-- SECTION 2 HTML HERE -->
+				<h2>We are currently seeking Beta testers. </h2>
+				<h3>Interested? Fill up the form below!</h3>
+				<form class="registration" action="index.html" method="post">
+					<fieldset class="contact-info">
+						<!-- <legend>Contact information</legend> -->
+
+						<div class="flex-pair">
+							<label for="firstName">First name</label>
+							<input type="text" id="firstName" name="user_name" required placeholder="required" autocomplete="off">
+						  </div>
+
+						  <div class="flex-pair">
+							<label for="lastName">Last name</label>
+							<input type="text" id="lastName" name="user_name" required placeholder="required" autocomplete="off">
+						  </div>
+
+						  <div class="flex-pair">
+							<label for="mail">Email address</label>
+							<input type="email" id="mail" name="user_email" required placeholder="required" autocomplete="off">
+						  </div>
+
+						  <div class="button">
+							<input class="btn-default" type="submit" value="Sign up for the beta">
+						  </div>
+
+					</fieldset>
+				</form>
+			</section>
+		</main>
+	</div> <!-- / PAGE CONTAINER -->
+	<script src= "script.js"></script>
+	<footer> </footer>
+</body>
+</html>

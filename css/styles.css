@@ -1,0 +1,101 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background: #006080 url("images/bg.jpg");
+  background-size: cover;
+}
+
+header {
+  color: #fff;
+  height: 200px;
+  background-position: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+body {
+  font-family: 'Alata', sans-serif;
+  color: #000;
+  background-color: #d9e6f2;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+}
+
+main h2 {
+  text-align: center;
+}
+
+.form p {
+  text-align: center;
+}
+
+li {
+  color: #fff;
+  margin: 1px;
+  padding-right: 15px;
+  list-style: none;
+}
+
+legend {
+  visibility: hidden;
+}
+
+.main-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.flex-pair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+label {
+  width: 100%;
+  padding: 6px 10px;
+}
+
+input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: solid 2px #b3c6ff;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.btn-default {
+  background-color: #668cff;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+@media (min-width: 1242px) {
+  main {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
